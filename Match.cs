@@ -23,11 +23,6 @@ namespace BettingSlip
             this.IsRunning = true;
         }
 
-        private void PrintStatus()
-        {
-            Console.WriteLine($"Stillingen er {homeGoals}-{awayGoals}.");
-        }
-
         public void AddGoal(bool isHomeTeam)
         {
             _ = isHomeTeam ? this.homeGoals++ : this.awayGoals++;

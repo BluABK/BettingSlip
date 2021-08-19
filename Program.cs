@@ -7,17 +7,6 @@ namespace BettingSlip
         static void Main(string[] args)
         {
             int matchAmount = 12;
-            //Console.Write("Gyldig tips: \r\n - H, U, B\r\n - halvgardering: HU, HB, UB\r\n - helgardering: HUB\r\nHva har du tippet for denne kampen? ");
-            //Console.Write("Valid tip: \r\n - H, U, B\r\n - halvgardering: HU, HB, UB\r\n - helgardering: HUB\r\nHva har du tippet for denne kampen? ");
-
-            //var bet = Console.ReadLine();
-
-            // Match
-            //Match match = new(bet);
-
-            // Show result.
-            //var isBetCorrectText = match.IsBetCorrect() ? "riktig" : "feil";
-            //Console.WriteLine($"Du tippet {isBetCorrectText}");
 
             // Show info.
             Console.WriteLine("Gyldig tips:");
