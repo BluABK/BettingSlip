@@ -12,11 +12,11 @@ namespace BettingSlip
             
             var bet = Console.ReadLine();
 
-            Match match = new();
+            // Match
+            Match match = new(bet);
 
-            var isBetCorrect = bet.Contains(match.GetResult());
-            var isBetCorrectText = isBetCorrect ? "riktig" : "feil";
-            
+            // Show result.
+            var isBetCorrectText = match.IsBetCorrect() ? "riktig" : "feil";
             Console.WriteLine($"Du tippet {isBetCorrectText}");
         }
     }
